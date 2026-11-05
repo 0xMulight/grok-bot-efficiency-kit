@@ -1,0 +1,17 @@
+{
+  "_note": "Copy to config.local.json and fill locally. NEVER commit your RPC key or webhook secrets.",
+  "bsc_rpc_url": "",
+  "data_dir": "data",
+  "monitor": {
+    "confirmations": 3,
+    "batch_blocks": 50,
+    "poll_seconds": 15,
+    "max_webhooks_per_cycle": 1
+  },
+  "webhook": {
+    "url": "",
+    "key": "",
+    "max_per_hour": 12,
+    "min_gap_seconds": 300
+  }
+}

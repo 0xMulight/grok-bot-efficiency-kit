@@ -1,0 +1,26 @@
+{
+  "_note": "The event counts below are fictional planning assumptions, not Grok usage statistics.",
+  "routines": [
+    {
+      "name": "BSC 合约重复巡逻",
+      "enabled": true,
+      "interval_minutes": 5,
+      "active_hours_per_day": 24,
+      "estimated_events_per_day": 6
+    },
+    {
+      "name": "价格异动汇总",
+      "enabled": true,
+      "interval_minutes": 15,
+      "active_hours_per_day": 12,
+      "estimated_events_per_day": 8
+    },
+    {
+      "name": "周末研究汇总",
+      "enabled": false,
+      "interval_minutes": 1440,
+      "active_hours_per_day": 24,
+      "estimated_events_per_day": 0
+    }
+  ]
+}
